@@ -1,0 +1,14 @@
+span > b {
+    color: burlywood;
+}
+
+p span.warnung {
+    color: blue;
+}
+.warnung ~ b {
+    color: fuchsia;
+}
+
+html head ~ body > p > b ~ #wichtig {
+    color :darkred
+}

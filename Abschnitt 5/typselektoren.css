@@ -1,0 +1,18 @@
+body {
+    color: brown;
+}
+
+
+body{ 
+    border:2px solid ;
+}
+
+h1 {
+    color: deepskyblue;
+    border: inherit;
+}
+
+span {
+    color: aliceblue;
+    
+}
