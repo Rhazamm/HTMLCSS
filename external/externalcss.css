@@ -1,0 +1,17 @@
+html {
+    background-color: chocolate;
+    color: black;
+  }
+
+  h1 {
+    font-size: 70px;
+    text-decoration: underline ;
+
+  }
+  p {
+    color: blueviolet;
+  }
+  span {
+    color: aliceblue;
+    font-weight: 1000;
+  }
