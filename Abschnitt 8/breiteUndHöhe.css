@@ -1,0 +1,8 @@
+p{
+    background-color: chartreuse;
+}
+
+p~p {
+    width: 400px;
+    height: 200px;
+}

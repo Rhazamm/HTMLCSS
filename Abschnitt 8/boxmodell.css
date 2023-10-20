@@ -1,0 +1,9 @@
+div{
+    background-color: black;
+    color: antiquewhite;
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    margin: 100px ;
+    border: 20px solid grey;
+}
