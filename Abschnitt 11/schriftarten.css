@@ -1,0 +1,27 @@
+body {
+    font-family: tahoma, verdana ,sans-serif
+}
+
+#test1 {
+    font-family: serif;
+}
+
+#test2 {
+    font-family: monospace;
+}
+
+#test3{
+    font-family: sans-serif;
+}
+
+#test4 {
+    font-family: cursive;
+}
+
+#test5 {
+    font-family: fantasy;
+}
+
+#extern {
+    font-family: 'Alumni Sans Collegiate One','Roboto', sans-serif;
+}

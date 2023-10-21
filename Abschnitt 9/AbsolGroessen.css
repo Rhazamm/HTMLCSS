@@ -1,0 +1,33 @@
+#absolut {
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    background-color: #f00;
+}
+#prozent {
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    color: aliceblue;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    font-size: 20px;
+}
+
+#em {
+    font-size: 2em;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}

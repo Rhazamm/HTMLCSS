@@ -1,0 +1,37 @@
+#preset {
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+}
+
+#hex {
+    height: 300px;
+    width: 300px;
+    background-color: #f7ca26;
+}
+
+#rgb {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(59, 200, 0,);
+}
+
+#rgba {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(59, 200, 0,0.7);
+}
+
+#hsl {
+    height: 300px;
+    width: 300px;
+    background-color: hsl(183, 95%, 55%);
+}
+.trubg {
+
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(200,10,70)
+}
