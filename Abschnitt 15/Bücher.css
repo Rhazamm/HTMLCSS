@@ -1,0 +1,12 @@
+div {
+    height: 300px;
+    width: auto;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+#Hier{
+    border: 20px solid red;
+}
+a {
+    text-decoration: dotted;
+}

@@ -1,0 +1,23 @@
+body {
+    height: 10000000000px;
+}
+
+#fixed {
+    width: 200px;
+    height: auto;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#sticky {
+    width: 200px;
+    height: auto;
+    background-color: grey;
+    position: sticky;
+    top: 80;
+    margin-top: 300;
+}
+
+/*static unabhängig von coords*/
