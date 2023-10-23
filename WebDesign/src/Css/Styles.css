@@ -1,0 +1,108 @@
+/* Ferben */
+
+/*
+ B = #1f4e8c
+ DG =#3d3345
+ Hg = #e5e5e5
+ R = #a62c21
+ */
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway','Lato','helvetica Neue','Arial', sans-serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*   Nav Leiste  */
+
+.header-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #3d3345;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.header-nav >a> img {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    left: 2rem;
+    top: .55rem;
+}
+
+.header-nav>ul>li>a {
+    margin-top: .8rem;
+    display: inline-block;
+}
+
+.header-nav >ul>li {
+    display: inline-block;
+    margin-left: 5px;
+    height: 100%;
+    padding: 0  .4rem 0 .4rem;
+
+}
+
+
+
+.header-nav >ul>li>a:link{
+color: white;
+text-decoration: none;
+}
+
+.header-nav >ul>li>a:hover{
+    color: #e5e5e5;
+text-decoration: none;
+
+}
+
+.header-nav >ul>li>a:active{
+    color: #e5e5e5;
+text-decoration: none;
+
+}
+
+
+.header-nav >ul>li>a:visited{
+    color: white;
+text-decoration: none;
+}
+
+.header-nav >ul{
+    margin: 0;
+    padding: 0;
+    right: 2rem;
+    position: absolute;
+    height: 100%;
+}
+
+.active {
+    background-color: #a62c21;
+    text-decoration: none;
+}
+
+/*header*/
+
+.Header-Banner{
+    background: url("../img/hintergrund.jpg") no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top:20.83%;
+    background-size: contain;
+}
+
+.Header-Banner-klein{
+    background: url("../img/hintergrund-klein.jpg") no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top:15.625%;
+    background-size: contain;
+}
+
