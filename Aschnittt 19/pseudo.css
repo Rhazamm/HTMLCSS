@@ -1,0 +1,17 @@
+#test{
+    height: 400px;
+    width: 400px;
+    background-color: azure;
+}
+
+#test::before {
+    content: "ich bin der echte pseudo";
+    display: block;
+    color: blueviolet;
+}
+
+#test::after {
+    content:"ich bin auch ein pseudo";
+    display: block;
+    color: brown;
+}
