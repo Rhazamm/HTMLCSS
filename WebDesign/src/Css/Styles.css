@@ -7,6 +7,13 @@
  R = #a62c21
  */
 
+ /*   global   */
+
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 body {
     margin: 0;
@@ -17,6 +24,10 @@ body {
 *{
     box-sizing: border-box;
 }
+
+/*   general   */
+
+
 
 /*   Nav Leiste  */
 
@@ -29,21 +40,20 @@ body {
     font-size: 1.1rem;
 }
 
-.header-nav >a> img {
+.header-nav a> img {
     height: 30px;
     width: auto;
-    position: absolute;
-    left: 2rem;
-    top: .55rem;
+    float: left;
+    margin:.5rem;
 }
 
-.header-nav>ul>li>a {
+.header-nav ul>li>a {
     margin-top: .8rem;
     display: inline-block;
 }
 
-.header-nav >ul>li {
-    display: inline-block;
+.header-nav ul>li {
+    display: block;
     margin-left: 5px;
     height: 100%;
     padding: 0  .4rem 0 .4rem;
@@ -52,41 +62,97 @@ body {
 
 
 
-.header-nav >ul>li>a:link{
+.header-nav ul>li>a:link{
 color: white;
 text-decoration: none;
 }
 
-.header-nav >ul>li>a:hover{
+.header-nav ul>li>a:hover{
     color: #e5e5e5;
 text-decoration: none;
 
 }
 
-.header-nav >ul>li>a:active{
+.header-nav ul>li>a:active{
     color: #e5e5e5;
 text-decoration: none;
 
 }
 
 
-.header-nav >ul>li>a:visited{
+.header-nav ul>li>a:visited{
     color: white;
 text-decoration: none;
 }
 
-.header-nav >ul{
+.header-nav .col-6{
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.header-nav .container,
+.header-nav .row,
+.header-nav .col-6 {
+    height: 100%;
+}
+
+.header-nav ul{
     margin: 0;
     padding: 0;
-    right: 2rem;
-    position: absolute;
+    float: right;
     height: 100%;
 }
 
 .active {
     background-color: #a62c21;
-    text-decoration: none;
 }
+
+/* Navigationsleiste mobile*/
+
+.mobile-nav-button {
+    color: white;
+    float: right;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    width: 37px;
+    height: 37px;
+    position: relative;
+    margin-top: .4rem;
+    margin-bottom: 8px;
+}
+
+.mobile-nav-button > span {
+    position :  absolute;
+    bottom: -2px ;
+    left: 7px;
+}
+.mobile-nav-content >ul>li {
+    display: block;
+    background-color: #3d3345;
+    height: 50px;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+
+.mobile-nav-dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.mobile-nav-content{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    display: none;
+}
+
+.mobile-nav-dropdown:hover >.mobile-nav-content {
+    display: block;
+}
+
 
 /*header*/
 
@@ -106,12 +172,6 @@ text-decoration: none;
     background-size: contain;
 }
 
-/* Grid Systema de visiona*/
-
-.border,.border * {
-    border: 1px solid
-}
-
 /* Grid Systema*/
 
 .container {
@@ -127,7 +187,7 @@ text-decoration: none;
     display: block;
 }
 
-[class='col-'] {
+[class*='col-'] {
     float:left;
     min-height: 1px;
     padding: .8rem;
@@ -157,3 +217,23 @@ text-decoration: none;
     .col-2 {width: 100%;}
     .col-3 {width: 100%;}
 }
+/*
+grid sichtbar
+
+.border, .border *{
+    border: 1px solid #91c4ff;
+}
+
+[class*='col'] {
+    background-color: #bfddff;
+
+}
+
+p{
+    background-color: #91c4ff;
+    padding:0;
+    margin: 0;
+    color:#fff;
+    text-align: center;
+}
+*/
