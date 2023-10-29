@@ -17,9 +17,9 @@
 
     <!-- NavLeiste -->
 
-    <nav class="header-nav">
+    <nav id="header-nav">
 
-        <div class="container desktop-nav">
+        <div class="container" id="desktop-nav">
                 <div class="row">
                     <div class="col-6">
                         <a href="Index.html">
@@ -41,18 +41,18 @@
                 </div>
             </div>
 
-        <div class="container mobile-nav">
+        <div class="container" id="mobile-nav">
             <div class="row">
                 <div class="col-6">
                     <a href="Index.html">
                         <img src="src/img/webdesign-logo.png" alt="Das Logo">
                     </a>
 
-                        <div class="mobile-nav-dropdown clearfix">
+                        <div class="clearfix" id="mobile-nav-dropdown">
 
-                            <div class="mobile-nav-button"><span>&equiv;</span></div>
+                            <div id="mobile-nav-button"><span>&equiv;</span></div>
 
-                                <div class="mobile-nav-content clearfix">
+                                <div id="mobile-nav-content" class="clearfix">
 
                                 <ul>
                                     <li class="active"><a href="Index.html">Startseite</a></li>
@@ -75,34 +75,31 @@
 
     <!--  Header-Banner  -->
 
-    <header class=Header-Banner></header>
+    <header id=Header-Banner></header>
 
-     <!--  Gridsystem   -->
+    <!-- Newsletter  -->
 
-        <div class="container border">
-            <div class="row">
-                <div class="col-1"><p></p></div>
-                <div class="col-1"><p></p></div>
-                <div class="col-1"><p></p></div>
-                <div class="col-1"><p></p></div>
-                <div class="col-1"><p></p></div>
-                <div class="col-1"><p></p></div>
-            </div>
-            <div class="row">
-                <div class="col-2"><p></p></div>
-                <div class="col-2"><p></p></div>
-                <div class="col-2"><p></p></div>
-            </div>
-            <div class="row">
-                <div class="col-3"><p></p></div>
-                <div class="col-3"><p></p></div>
-            </div>
-            <div class="row">
-                <div class="col-6"><p></p></div>
-            </div>
+    <section id="Newsletter">
 
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p id="nb"><span class="text-wichtig"> Ich packe meinen Koffer… Deine „Essentials” für den Strandurlaub</span></p>
+                </div>
+                <div class="col-2 clearfix">
+
+                    <form id="nb-form" action="Index.html" method="post">
+
+                        <label class="screenread" for="nb-email">Email:</label>
+                        <input id="nb-email nb-email-input" type="text" name="email" placeholder="Deine Mail" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                        <button class="btn1" id="nb-btn" type="submit">Absenden</button>
+
+                    </form>
+
+                </div>
+            </div>
         </div>
-   
+    </section>
 
 </body>
 
