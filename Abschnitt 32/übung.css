@@ -1,0 +1,29 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+  }
+
+thead{
+    background-color: gray;
+}
+
+table tr:nth-child(even){
+    background-color: lightgray;
+}
+
+caption{
+    text-align: left;
+    padding-left: .2rem;
+}
+
+tr{
+    height: 2rem;
+}
+
+  tbody{
+    border-bottom: 2px solid black;
+}
