@@ -1,9 +1,9 @@
-/* Ferben */
+/* Farben */
 
 /*
  B = #1f4e8c
  DG =#3d3f45
- Hg = #e5e5e5
+ Hg = #f0f0f0
  R = #a62c21
  */
 
@@ -22,7 +22,7 @@ body {
 
 :focus {
     outline: none;
-    box-shadow:0 0 2px 2px #e5e5e5, 0 0 10px #e5e5e5;
+    box-shadow:0 0 2px 2px #f0f0f0, 0 0 10px #f0f0f0;
 }
 
 section{
@@ -174,13 +174,13 @@ font-size: 1.2rem;
 }
 
 #header-nav ul>li>a:hover {
-    color: #e5e5e5;
+    color: #f0f0f0;
     text-decoration: none;
 
 }
 
 #header-nav ul>li>a:active {
-    color: #e5e5e5;
+    color: #f0f0f0;
     text-decoration: none;
 
 }
@@ -551,6 +551,94 @@ font-size: 1.2rem;
     .col-4 {width: 100%;}
 
 }
+
+/* ServiceBereich */
+
+#service-bereich{
+    background-color: #f0f0f0;
+}
+
+.servicebox{
+    text-align: center;
+    width: 80%;
+}
+
+.servicebox h1{
+    font-size: 1.4;
+}
+
+#service-bereich .row:nth-of-type(2)> .col-2:first-of-type>.servicebox{
+margin-right: 0;
+margin-left: auto;
+}
+
+#service-bereich .row:nth-of-type(2)> .col-2:nth-of-type(2)>.servicebox{
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .service-icon{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #Angebote{
+        background: #3d3f45 url("./../img/services-sprite.png") 0 0;
+
+    }
+
+    #Lieferung{
+        background: #3d3f45 url("./../img/services-sprite.png") -120px 0;
+    }
+
+    #Design{
+        background: #3d3f45 url("./../img/services-sprite.png") -240px 0;
+    }
+
+    @media (max-width: 780px){
+
+        #service-bereich .row:nth-of-type(2)> .col-2:first-of-type>.servicebox{
+            margin-right: auto;
+            margin-left: auto;
+            }
+        
+        #service-bereich .row:nth-of-type(2)> .col-2:nth-of-type(3)>.servicebox{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+
+
+/* berunsbereich */
+
+#überunsbereich{
+    background-color: #fff;
+}
+
+#überunscontainer{   
+    position: relative;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#überunscontainer>img{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    height: 100%;
+}
+
+#überunscontainer>p{
+    width: 75%;
+    font-size: 1.2rem;
+
+}
+
 
 /*
 grid sichtbar

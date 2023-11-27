@@ -1,6 +1,6 @@
 div {
     width: 200px;
-    height: 200px;
+    height: 50px;
     background-color: chocolate;
     margin-bottom: 2rem;
 }
@@ -10,7 +10,7 @@ div {
 }
 
 #test02 {
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 #test03{
